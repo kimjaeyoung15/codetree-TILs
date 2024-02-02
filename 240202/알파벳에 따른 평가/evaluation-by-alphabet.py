@@ -1,0 +1,7 @@
+g=str(input())
+if g=='S':print('Superior')
+elif g=='A':print('Excellent')
+elif g=='B':print('Good')
+elif g=='C':print('Usually')
+elif g=='D':print('Effort')
+else:print('Failure')
