@@ -1,4 +1,7 @@
-arr=[int(x) for x in input().split('\n')]
+arr=[]
+for x in range(5):
+    tmp=int(input())
+    arr.append(tmp)
 v=0
 for i in arr:
     if i%3==0:
